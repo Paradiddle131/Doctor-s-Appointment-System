@@ -134,7 +134,6 @@ public class PatientForm extends JFrame {
 		JLabel lblAvailableHours = new JLabel("Available Hours:");
 		lblAvailableHours.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
 		lblAvailableHours.setBounds(39, 260, 133, 20);
-		getContentPane().add(lblAvailableHours);
 
 		cmbHour = new JComboBox();
 		cmbHour.setModel(new DefaultComboBoxModel(new String[] { "08.00am", "08.30am", "09.00am", "09.30am", "10.00am",
